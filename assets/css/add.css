@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
 	/*Display links inline*/
 
 	ul li {
@@ -5,18 +7,17 @@
 	}
 	
 	.namestyle {
-		font-family: 'Kaushan Script', cursive;
-		
+		font-family: 'Satisfy', cursive;	
 	}
 	
 	.linkfooter {
 		bottom: 0px;
 		/*bottom: -32px;*/
+		right: 13px;
 		cursor: default;
 		position: absolute;
-		text-align: center;
+		text-align: right;
 		width: 100%;
-		padding-Right: 0px;
 	}
 	
 	li a:hover {
@@ -27,15 +28,19 @@
 	.hoverstyle {
 		color: #e4af9d;
 	}
-
+	
 	@media screen and (max-width: 736px) {
 		
 		.linkfooter {
-		top: 85px;
-		cursor: default;
-		position: absolute;
-		text-align: center;
-		width: 100%;
-		padding-Right: 0px;
+			top: 85px;
+			cursor: default;
+			position: absolute;
+			text-align: center;
+			width: 100%;
 		}
 	}
+	
+	#image {
+		width: 65% ;
+	}
+	
