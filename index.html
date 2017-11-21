@@ -1,4 +1,9 @@
 <!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
 		<title>BharatBhushan</title>
@@ -11,39 +16,53 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
-
 		<!-- Wrapper-->
 			<div id="wrapper">
-
 				<!-- Nav -->
 					<nav id="nav">
 						<a href="#me" class="icon fa-home active"><span>Home</span></a>
 						<a href="#work" class="icon fa-folder" style="visibility : hidden;"><span>Work</span></a>
 						<a href="#contact" class="icon fa-envelope" style="visibility : hidden;"><span>Contact</span></a>
 					</nav>
-
 				<!-- Main -->
 					<div id="main">
-
 						<!-- Me -->
 							<article id="me" class="panel">
 								<header>
 									<h1 class="namestyle" style="font-size:48px;">Bharat Bhushan</h1>
 									<p class="namestyle">Associate Consultant</p>
 								</header>
-																
+									<a href="#" class="btn btn-default" id="downloadbtn" data-toggle="modal" data-target="#myModal">Resume</a>
 									<img src="images/me.jpg" id="image" alt="" />
-								
 								<footer class="linkfooter">
 									<nav>
 										<a href="https://www.linkedin.com/in/bhushanbharat993" class="hoverstyle icon fa-linkedin-square"><span class="label">Linkedin</span></a>
 										<a href="https://www.facebook.com/iamthebharat.1" class="hoverstyle icon fa-facebook-square"><span class="label">Facebook</span></a>										
 										<a href="https://twitter.com/Bharat_13993" class="hoverstyle icon fa-twitter-square"><span class="label">Twitter</span></a>
 										<a href="https://plus.google.com/u/0/+BharatBhushan93" class="hoverstyle icon fa-google-plus-square"><span class="label">Google+</span></a>
-										<a href="#contact" class="hoverstyle icon fa-envelope-square"><span class="label">Email</span></a>
+										<!--a href="#contact" class="hoverstyle icon  fa-file"><span class="label">Resume</span></a-->
 									</nav>
 								</footer>
-							</article>
+							</article>	
+						<!-- Resume Modal -->
+						<!-- Modal -->
+							<div class="modal fade" id="myModal" role="dialog">
+								<div class="modal-dialog custompdf">
+							
+								<!-- Modal content-->
+									<div class="modal-content">
+										<div class="modal-body">
+											<div class="embed-responsive embed-responsive-16by9">
+												<iframe class="embed-responsive-item"  src="assets/doc/Resume.pdf#zoom=150"></iframe>
+											</div>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>	  
+								</div>
+							</div>
+
 							
 						<!-- Work -->
 							<article id="work" class="panel">
@@ -143,6 +162,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/bootstrap.min.js"></script>
 
 	</body>
 </html>
