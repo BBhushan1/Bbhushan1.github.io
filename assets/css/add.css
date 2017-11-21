@@ -1,0 +1,28 @@
+	/*Display links inline*/
+
+	ul li {
+		display: inline;
+	}
+	
+	.namestyle {
+		font-family: 'Kaushan Script', cursive;
+		
+	}
+	
+	.linkfooter {
+		bottom: -32px;
+		cursor: default;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		padding-Right: 0px;
+	}
+	
+	li a:hover {
+		border-bottom-color: transparent;
+		color: #8f617b;
+	}
+	
+	.hoverstyle {
+		color: #e4af9d;
+	}
